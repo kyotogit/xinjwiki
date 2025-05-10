@@ -1,3 +1,40 @@
-site_name: My Docs
+site_name: xinj's wiki
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Notes:
+      - 总览: notes/notes.md
+      - 王夫之: notes/王夫之.md
+
 theme:
   name: 'material'
+  language: zh
+  palette:
+    - scheme: slate         # 默认加载的是这个（暗色）
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/white-balance-sunny
+        name: 切换到日间模式
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: 切换到夜间模式
+
+
+  highlightjs: true
+  hljs_languages:
+    - yaml
+    - rust
+
+plugins:
+  - search:
+      lang:
+        - zh
+        - en
+        - ja
+      separator: '[\s\u200b\-]'
+
