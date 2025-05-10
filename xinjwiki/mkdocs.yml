@@ -9,6 +9,7 @@ nav:
 
 theme:
   name: 'material'
+  favicon: img/1f537.svg
   language: zh
   palette:
     - scheme: slate         # 默认加载的是这个（暗色）
@@ -25,6 +26,7 @@ theme:
         name: 切换到夜间模式
 
 
+
   highlightjs: true
   hljs_languages:
     - yaml
@@ -37,3 +39,12 @@ plugins:
       separator: '[\s\u200b\-]'
 
 # Chinese search support: https://squidfunk.github.io/mkdocs-material/blog/2022/05/05/chinese-search-support/?h=%E4%B8%AD%E6%96%87
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra:
+  homepage: https://example.com
