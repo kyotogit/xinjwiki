@@ -1,38 +1,29 @@
-site_name: xinj 个人网站
+﻿site_name: xinj's wiki
 
 nav:
   - Home: index.md
   - About: about.md
-  - Test: test.md
   - Notes:
-      - 总览: notes/notes.md
-      - 王夫之: notes/王夫之.md
-  - Research:
-      - AIGC版权: Research/AIGC Copyright.md
+      - 鎬昏: notes/notes.md
+      - 鐜嬪か涔? notes/鐜嬪か涔?md
 
 theme:
   name: 'material'
   favicon: img/1f537.svg
   language: zh
-  features:
-    - navigation.tabs
-    - navigation.indexes
-    - toc.follow
-    - navigation.top
-  toc_depth: 1  # 显示三级标题
   palette:
-    - scheme: slate         # 默认加载的是这个（暗色）
-      primary: light-green
+    - scheme: slate         # 榛樿鍔犺浇鐨勬槸杩欎釜锛堟殫鑹诧級
+      primary: green
       accent: indigo
       toggle:
         icon: material/white-balance-sunny
-        name: 切换到日间模式
+        name: 鍒囨崲鍒版棩闂存ā寮?
     - scheme: default
-      primary: light-green
+      primary: green
       accent: indigo
       toggle:
         icon: material/weather-night
-        name: 切换到夜间模式
+        name: 鍒囨崲鍒板闂存ā寮?
 
 
 
@@ -55,6 +46,5 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
-
 extra:
-  homepage: /
+  homepage: https://example.com

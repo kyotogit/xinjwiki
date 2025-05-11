@@ -1,0 +1,92 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+<style>
+  /* 设置字体 */
+  body {
+    font-family: "Times New Roman", "FangSong", "仿宋", FangSong, "STFangSong", "华文仿宋", serif !important;
+  }
+  
+  /* 确保中文使用仿宋，英文使用 Times New Roman */
+  :lang(zh) {
+    font-family: "FangSong", "仿宋", FangSong, "STFangSong", "华文仿宋", serif !important;
+  }
+  
+  :lang(en) {
+    font-family: "Times New Roman", serif !important;
+  }
+  
+  /* 保持代码块使用等宽字体 */
+  code, pre, .md-typeset code, .md-typeset pre {
+    font-family: "Roboto Mono", SFMono-Regular, Consolas, Menlo, monospace !important;
+  }
+
+  /* 右侧目录样式 - 增强显示 */
+  .md-sidebar--secondary {
+    background-color: rgba(0, 0, 0, 0.05);
+    padding-top: 10px;
+    display: block !important;
+    visibility: visible !important;
+    width: 15rem !important;
+    position: fixed !important; /* 确保固定位置 */
+    right: 0 !important; /* 固定在右侧 */
+  }
+  
+  /* 即使没有足够标题也显示目录 */
+  .md-sidebar--secondary .md-sidebar__inner {
+    display: block !important;
+    visibility: visible !important;
+  }
+  
+  /* 设置目录默认标题 */
+  .md-sidebar--secondary .md-nav__title:empty::before {
+    content: "目录";
+    display: block;
+  }
+  
+  .md-sidebar--secondary .md-sidebar__scrollwrap {
+    padding: 0 10px;
+  }
+  
+  .md-sidebar--secondary .md-nav__title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: var(--md-default-fg-color);
+  }
+  
+  .md-sidebar--secondary .md-nav__list {
+    margin-left: 10px;
+  }
+  
+  .md-sidebar--secondary .md-nav__item {
+    padding: 2px 0;
+  }
+  
+  /* 右侧目录标题 */
+  [dir=ltr] .md-sidebar--secondary .md-sidebar__inner {
+    border-left: 1px solid var(--md-default-fg-color--lightest);
+  }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // 确保右侧目录显示，即使页面没有足够的标题
+    var tocSidebar = document.querySelector('.md-sidebar--secondary');
+    if (tocSidebar) {
+      tocSidebar.style.display = 'block';
+      
+      // 如果目录为空，添加一个"目录"标题
+      var tocTitle = tocSidebar.querySelector('.md-nav__title');
+      if (!tocTitle || !tocTitle.textContent.trim()) {
+        var tocNav = tocSidebar.querySelector('.md-nav');
+        if (tocNav) {
+          var title = document.createElement('span');
+          title.className = 'md-nav__title';
+          title.textContent = '目录';
+          tocNav.prepend(title);
+        }
+      }
+    }
+  });
+</script>
+{% endblock %} 
