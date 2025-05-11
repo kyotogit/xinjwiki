@@ -19,9 +19,9 @@ theme:
     - navigation.indexes
     - toc.follow
     - navigation.top
-  toc_depth: 1  # 显示三级标题
+  toc_depth: 1  
   palette:
-    - scheme: slate         # 默认加载的是这个（暗色）
+    - scheme: slate         
       primary: light-green
       accent: indigo
       toggle:
