@@ -1,0 +1,12 @@
+#
+msgid ""
+msgstr ""
+
+msgid "总览"
+msgstr ""
+
+msgid "Notes"
+msgstr ""
+
+msgid "Welcome to Notes."
+msgstr ""

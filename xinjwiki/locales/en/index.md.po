@@ -1,0 +1,15 @@
+#
+msgid ""
+msgstr ""
+
+msgid "Home"
+msgstr ""
+
+msgid "Welcome to MkDocs"
+msgstr ""
+
+msgid "Welcome to xinj's wiki!"
+msgstr ""
+
+msgid "For full documentation visit [mkdocs.org](https://www.mkdocs.org)."
+msgstr ""

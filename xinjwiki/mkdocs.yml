@@ -19,6 +19,8 @@ theme:
     - navigation.indexes
     - toc.follow
     - navigation.top
+    - toc.integrate
+    - content.code.copy
   toc_depth: 1  
   palette:
     - scheme: slate         
@@ -46,6 +48,28 @@ plugins:
       lang:
         - ja
       separator: '[\s\u200b\-]'
+  - i18n:
+      default_language: zh
+      docs_structure: suffix
+      languages:
+        - locale: zh
+          default: true
+          name: 简体中文
+          build: true
+        - locale: en
+          name: English
+          build: true
+  - roamlinks
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: timeago
+  - exclude:
+      glob:
+        - "*.tmp"
+        - "*.pdf"
+        - "*.gz"
+      regex:
+        - '.*\.(tmp|bin|tar)$'
 
 # Chinese search support: https://squidfunk.github.io/mkdocs-material/blog/2022/05/05/chinese-search-support/?h=%E4%B8%AD%E6%96%87
 
@@ -54,7 +78,6 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-
 
 extra:
   homepage: /

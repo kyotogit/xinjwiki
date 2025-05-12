@@ -1,0 +1,27 @@
+plugins:
+  - search:
+      lang:
+        - ja
+      separator: '[\s\u200b\-]'
+  - i18n:
+      default_language: zh
+      docs_structure: suffix
+      languages:
+        - locale: zh
+          default: true
+          name: 简体中文
+          build: true
+        - locale: en
+          name: English
+          build: true
+  - roamlinks
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: timeago
+  - exclude:
+      glob:
+        - "*.tmp"
+        - "*.pdf"
+        - "*.gz"
+      regex:
+        - '.*\.(tmp|bin|tar)$' 

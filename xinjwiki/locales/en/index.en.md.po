@@ -1,0 +1,78 @@
+#
+msgid ""
+msgstr ""
+
+msgid "Home"
+msgstr ""
+
+msgid "Welcome to xinj's Personal Website"
+msgstr ""
+
+msgid ""
+"This is the English version of my personal website. Here you can find my "
+"notes, research, and various other content."
+msgstr ""
+
+msgid "Site Content"
+msgstr ""
+
+msgid "[About](about.md) - Information about me"
+msgstr ""
+
+msgid "[Notes](notes/notes.md) - My personal notes and thoughts"
+msgstr ""
+
+msgid ""
+"[Research](Research/AIGC%20Copyright.md) - My research on various topics"
+msgstr ""
+
+msgid "Feel free to explore the site using the navigation menu above."
+msgstr ""
+
+#, fuzzy
+msgid "[//]: # \"## Commands\""
+msgstr "[//]: # \"## Commands\""
+
+#, fuzzy
+msgid "[//]: #"
+msgstr "[//]: #"
+
+#, fuzzy
+msgid "[//]: # \"* `mkdocs new [dir-name]` - Create a new project.\""
+msgstr "[//]: # \"* `mkdocs new [dir-name]` - Create a new project.\""
+
+#, fuzzy
+msgid "[//]: # \"* `mkdocs serve` - Start the live-reloading docs server.\""
+msgstr "[//]: # \"* `mkdocs serve` - Start the live-reloading docs server.\""
+
+#, fuzzy
+msgid "[//]: # \"* `mkdocs build` - Build the documentation site.\""
+msgstr "[//]: # \"* `mkdocs build` - Build the documentation site.\""
+
+#, fuzzy
+msgid "[//]: # \"* `mkdocs -h` - Print help message and exit.\""
+msgstr "[//]: # \"* `mkdocs -h` - Print help message and exit.\""
+
+#, fuzzy
+msgid "[//]: # \"## Project layout\""
+msgstr "[//]: # \"## Project layout\""
+
+#, fuzzy
+msgid "[//]: # \"    mkdocs.yml    # The configuration file.\""
+msgstr "[//]: # \"    mkdocs.yml    # The configuration file.\""
+
+#, fuzzy
+msgid "[//]: # \"    docs/\""
+msgstr "[//]: # \"    docs/\""
+
+#, fuzzy
+msgid "[//]: # \"        index.md  # The documentation homepage.\""
+msgstr "[//]: # \"        index.md  # The documentation homepage.\""
+
+#, fuzzy
+msgid ""
+"[//]: # \"        ...       # Other markdown pages, images and other "
+"files.\""
+msgstr ""
+"[//]: # \"        ...       # Other markdown pages, images and other "
+"files.\""
