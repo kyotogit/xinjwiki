@@ -1,45 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
-        <loc>Noneen\</loc>
+        <loc>None./</loc>
         <lastmod>2025-05-12</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="Noneen\"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None"/>
         <xhtml:link rel="alternate" hreflang="en" href="Noneen/"/>
     </url>
     <url>
-        <loc>Noneen\about\</loc>
+        <loc>Noneabout/</loc>
         <lastmod>2025-05-12</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="Noneen\about\"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneabout/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Noneen/about/"/>
     </url>
     <url>
-        <loc>Noneen\test\</loc>
+        <loc>Nonetest/</loc>
         <lastmod>2025-05-12</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="Noneen\test\"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonetest/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Noneen/test/"/>
     </url>
     <url>
-        <loc>Noneen\Research\AIGC Copyright\</loc>
+        <loc>NoneResearch/AIGC%20Copyright/</loc>
         <lastmod>2025-05-12</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="Noneen\Research\AIGC Copyright\"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="NoneResearch/AIGC%20Copyright/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Noneen/Research/AIGC%20Copyright/"/>
     </url>
     <url>
-        <loc>Noneen\notes\notes\</loc>
+        <loc>Nonenotes/notes/</loc>
         <lastmod>2025-05-12</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="Noneen\notes\notes\"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonenotes/notes/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Noneen/notes/notes/"/>
     </url>
     <url>
-        <loc>Noneen\notes\王夫之\</loc>
+        <loc>Nonenotes/%E7%8E%8B%E5%A4%AB%E4%B9%8B/</loc>
         <lastmod>2025-05-12</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="Noneen\notes\王夫之\"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonenotes/%E7%8E%8B%E5%A4%AB%E4%B9%8B/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Noneen/notes/%E7%8E%8B%E5%A4%AB%E4%B9%8B/"/>
     </url>
     <url>
